@@ -11,7 +11,7 @@ public class Registr {
     }
 
     public void doVisit(){
-        System.out.println("В регистратуру обратился пациент.");
+        System.out.println("В регистратуру обратился пациент.");//,kf   erter
         actions.stream().forEach(a -> a.processing());
     }
 }
